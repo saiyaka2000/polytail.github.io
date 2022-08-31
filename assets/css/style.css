@@ -1734,6 +1734,18 @@ section {
 }
 
 
+@media(max-width:480px) {
+    .prev-arrow {
+        position: absolute;
+        left: 270px;
+        top: 0;
+        z-index: 999;
+    
+    }
+
+}
+
+
 
 @media(max-width:375px) {
 
