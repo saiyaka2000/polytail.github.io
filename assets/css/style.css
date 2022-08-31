@@ -1422,7 +1422,7 @@ section {
 
 /*-----------------------media qures---------------*/
 
-@media(max-width:768px) {
+@media(max-width:767px) {
 
     .hamburger-menu{
         display: block;
@@ -1507,6 +1507,20 @@ section {
         top: 10%;
     
     }
+
+    .input_style {
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
+
+
+
+@media(max-width:600px) {
+
+
+
 
 }
 

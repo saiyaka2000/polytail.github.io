@@ -28,6 +28,13 @@ $('.testimo_slider').slick({
       }
     },
     {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
