@@ -1736,11 +1736,12 @@ section {
 
       .prev-arrow {
         position: absolute;
-        left: 358px;
+        left: 350px;
         top: 0;
         z-index: 999;
     
     }
+
     
     .next-arrow {
         position: absolute;
@@ -1753,18 +1754,7 @@ section {
 }
 
 
-@media(max-width:480px) {
-    .prev-arrow {
-        position: absolute;
-        left: 270px;
-        top: 0;
-        z-index: 999;
-    
-    }
 
-
-
-}
 
 
 
