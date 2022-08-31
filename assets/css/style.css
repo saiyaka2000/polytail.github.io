@@ -1488,8 +1488,8 @@ section {
       .contact::after{
         content: '';
         position: absolute;
-        width: 30rem;
-        height: 30rem;
+        width: 40rem;
+        height: 40rem;
       }
 
       .contact_form_area{
@@ -1513,16 +1513,21 @@ section {
         max-width: 100%;
     }
 
+    .ser_icon::before{
+        box-shadow: 15px -16px 0 14px #2f025a;
+    }
+
+.ser_icon::after{
+    box-shadow: -16px -16px 0 15px #2f025a;
 }
 
 
 
-@media(max-width:600px) {
-
-
-
 
 }
+
+
+
 
 
 
