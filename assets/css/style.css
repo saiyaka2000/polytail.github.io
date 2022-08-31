@@ -1723,16 +1723,6 @@ section {
         margin-left: 0;
     }
 
-    @keyframes zoom-in-zoom-out {
-        0% , 100% {
-          transform: scale(1, 1);
-          
-        }
-        50% {
-          transform: scale(1, 1);
-          
-        }
-      }
 
       .prev-arrow {
         position: absolute;
@@ -1750,6 +1740,17 @@ section {
         
     
     }
+
+    @keyframes zoom-in-zoom-out {
+        0% , 100% {
+          transform: scale(1, 1);
+          
+        }
+        50% {
+          transform: scale(0.8,0.8);
+          
+        }
+      }
 
 }
 
@@ -1869,13 +1870,18 @@ section {
         margin-left: 0;
     }
 
-    @keyframes zoom-in-zoom-out {
+    .target {
+        top: -45px;
+        left: 115px;
+      }
+
+      @keyframes zoom-in-zoom-out {
         0% , 100% {
           transform: scale(1, 1);
           
         }
         50% {
-          transform: scale(1, 1);
+          transform: scale(0.8,0.8);
           
         }
       }
@@ -1885,6 +1891,26 @@ section {
 
 
 
+@media(max-width:380px) {
+    .prev-arrow {
+        position: absolute;
+        left: 257px;
+        top: 0;
+        z-index: 999;
+    
+    }
+    @keyframes zoom-in-zoom-out {
+        0% , 100% {
+          transform: scale(1, 1);
+          
+        }
+        50% {
+          transform: scale(0.8,0.8);
+          
+        }
+      }
+
+}
 
 
 
